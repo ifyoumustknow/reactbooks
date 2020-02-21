@@ -22,6 +22,7 @@ function Navbar() {
             >
               Home
             </Link>
+
           </li>
         </ul>
       </div>

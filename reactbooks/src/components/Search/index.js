@@ -28,17 +28,16 @@ function Search() {
   return (
 
     <div className="container">
-      <h1>Book Search App</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input
             type="text" onChange={handleChange}
-            className="input-control mt-10"
-            style={{ width: "500px" }}
+            className="input-control mt-12"
+            style={{ width: "300", margin: "10px" }}
             placeholder="Search for Books"
             autoComplete="off" />
+          <button type="submit" className="btn btn-danger" style={{ margin: "10px", float: "right" }}>Search</button>
         </div>
-        <button type="submit" className="btn btn-danger">Search</button>
       </form>
       {result.map(book => (
         <a target="_blank" href={book.volumeInfo.previewLink}>
@@ -49,4 +48,4 @@ function Search() {
   );
 };
 
-export default Search;
+export default Search; 
