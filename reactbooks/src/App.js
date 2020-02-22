@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 // import ReactDOM from "react-dom";

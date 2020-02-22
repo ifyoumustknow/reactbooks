@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
-import { Link } from "react-router-dom";
 
 
 
@@ -8,9 +6,9 @@ const SearchArea = (props) => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <Link className="navbar-brand" to="/">
+                <h1 className="navbar-brand" to="/">
                     GOOGLE Books
-      </Link>
+        </h1>
                 <div>
                     <ul className="navbar-nav">
                         <li className="nav-item">
