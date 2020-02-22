@@ -7,7 +7,7 @@ const SearchArea = (props) => {
     return (
         <div>
             <nav className="navbar nav_color">
-                <a href>
+                <a href="true">
                     <img src="/googlelogo_color_92x30dp.png" width="110px" alt="" />
                 </a>
                 <div>
