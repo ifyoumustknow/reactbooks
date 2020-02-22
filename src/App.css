@@ -20,23 +20,42 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
-.input{
+/* .input{
   width: 30%;
   padding: 5px;
   font-size: 1em;
+} */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
+a:visited {
+  color: wheat;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: whitesmoke;
+
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 .list{
   display: grid;
   margin: 20px 0 20px auto;
   grid-template-columns: repeat( auto-fit, minmax(230px, 1fr) );
-
   grid-auto-rows: 1fr;
-  grid-gap: 1.5em;
+  grid-gap: 1em;
 }
 
 .img_container{
@@ -46,23 +65,19 @@
   text-align: center;
   object-fit: cover;
   background:#6CADDC;
-
-
-  
 }
 
 .card-container {
   width: 200px;
   height: 300px;
   margin: 0 auto;
-
-  
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 
   8px 8px 12px   rgba(0, 0, 0, 0.26);
   background-color: rgb(56, 56, 56);
   color:white;
+  
 }
 
 .desc{
