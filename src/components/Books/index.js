@@ -38,7 +38,6 @@ class books extends Component {
         )
     }
 
-
 }
 
 export default books;

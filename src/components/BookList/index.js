@@ -13,6 +13,7 @@ const BookList = (props) => {
                         author={book.volumeInfo.authors}
                         published={book.volumeInfo.publishedDate}
                         previewLink={book.volumeInfo.previewLink}
+                        description={book.volumeInfo.description}
                     />
                 })
 
