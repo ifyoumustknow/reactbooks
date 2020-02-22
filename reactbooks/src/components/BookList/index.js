@@ -1,5 +1,5 @@
 import React from 'react';
-import BookCard from "./components/BookCard"
+import BookCard from "../../components/BookCard"
 
 const BookList = (props) => {
     return (
@@ -9,9 +9,9 @@ const BookList = (props) => {
                     return <BookCard
                         key={i}
                         image={book.volumeInfo.imageLinks.thumbnail}
-                        title={book.volumeInfo.tile}
+                        title={book.volumeInfo.title}
                         author={book.volumeInfo.authors}
-                        published={book.volumeInfo.published}
+                        published={book.volumeInfo.publishedDate}
                     />
                 })
 

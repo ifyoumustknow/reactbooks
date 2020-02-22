@@ -1,7 +1,8 @@
-import React, { Component } from './node_modules/react';
-import request from './node_modules/superagent';
-import SearchArea from "./components//SearchArea";
-import BookList from "./components/BookList"
+import React, { Component } from 'react';
+import request from 'superagent';
+import SearchArea from '../../components/SearchArea';
+import BookList from '../../components/BookList';
+
 
 class books extends Component {
     constructor(props) {
