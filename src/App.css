@@ -23,7 +23,7 @@
   color: #61dafb;
 }
 .input{
-  width: 150px;
+  width: 30%;
   padding: 5px;
   font-size: 1em;
 }
@@ -33,27 +33,35 @@
 .list{
   display: grid;
   margin: 20px 0 20px auto;
-  grid-template-columns: repeat(5,3fr);
+  grid-template-columns: repeat(4,1fr);
   grid-auto-rows: 1fr;
-  grid-gap: 1em;
+  grid-gap: 3em;
 }
 
 .img_container{
   width:100%;
-  height: 125px;
+  height: 200px;
   overflow: hidden;
   text-align: center;
   object-fit: cover;
   background:#6CADDC;
+
+
   
 }
 
 .card-container {
   width: 200px;
-  border: 1px solid rgba(0,0,0,.125);
+  height: 300px;
   margin: 0 auto;
-  border-radius: 5px;
+
+  
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 
+  8px 8px 12px   rgba(0, 0, 0, 0.26);
+  background-color: rgb(56, 56, 56);
+  color:white;
 }
 
 .desc{
@@ -62,16 +70,17 @@
 }
 
 .desc h2{
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
 }
 
 .desc h3{
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 300;
 }
 
-.desc h3, p{
+.desc p{
+  font-size: .5em;
   font-weight: 300;
 }
 

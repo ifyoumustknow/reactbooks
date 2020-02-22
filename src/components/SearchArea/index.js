@@ -1,11 +1,11 @@
 import React from 'react';
-
+import "./style.css";
 
 
 const SearchArea = (props) => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar   nav_color">
                 <h1 className="navbar-brand" to="/">
                     GOOGLE Books
         </h1>
@@ -15,17 +15,16 @@ const SearchArea = (props) => {
                             <div className="search-area">
                                 <form className="form-inline" onSubmit={props.searchBook} action="">
                                     <input onChange={props.handleSearch} type="text"
-                                        className="form-control mr-md-12"
+                                        className="form-control "
                                         placeholder="Search for Books"
-                                        autoComplete="off" />
+                                        autoComplete="off"
+                                        style={{ width: "300px" }} />
                                     <button className="btn btn-outline-success my-2 my-sm-0" style={{ margin: "10px", float: "right" }} type="submit">Search</button>
                                 </form>
                             </div>
                         </li>
                     </ul>
                 </div>
-
-
             </nav>
         </div>
     )
